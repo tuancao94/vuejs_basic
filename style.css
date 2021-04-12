@@ -1,0 +1,49 @@
+.nav-bar {
+    background-color: #3aa24c;
+    height: 50px;
+}
+div#app {
+    height: 300px;
+}
+.product {
+    height: 300px;
+}
+img {
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 1px solid #352e2e;
+    width: 190px;
+}
+.product-images {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.product-info {
+    height: 300px;
+    width: 50%;
+    float: right;
+}
+button {
+    background-color: #50dccf;
+    height: 46px;
+    width: 200px;
+    float: left;
+}
+.cart {
+    float: left;
+    margin-left: 50px;
+    border: 1px solid #2196F3;
+    width: 64px;
+    height: 44px;
+    text-align: center;
+}
+.color-box {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.color-box p{
+    text-align: center;
+    padding-top: 10px;
+}
