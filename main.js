@@ -36,8 +36,7 @@ Vue.component('product',{
     </div>
     `,
     data(){
-        return
-        {
+        return {
             brand: 'Vue mastery',
             product: 'Socks',
             selectedVariant: 0,
@@ -70,7 +69,7 @@ Vue.component('product',{
     },
     computed:{
         title(){
-            return this.brand + ' ' +this.product
+            return this.brand + ' ' + this.product
         },
         image(){
             return this.variants[this.selectedVariant].variantImage
@@ -89,8 +88,8 @@ Vue.component('product',{
 })
 
 var app = new Vue({
-    el: '#app'
+    el: '#app',
     data:{
         premium:false
-    }
+    } 
 })
